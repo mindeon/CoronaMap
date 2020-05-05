@@ -11,7 +11,7 @@
         <!--Map Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="MapController" id="BYZ-38-t0r" customClass="MapController" customModule="Corona_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapController" id="BYZ-38-t0r" customClass="MapController" customModule="Corona_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,7 +128,7 @@
         <!--Region Data Controller-->
         <scene sceneID="QjW-3Y-ZfF">
             <objects>
-                <tableViewController storyboardIdentifier="RegionDataController" id="Pk4-iK-Cch" customClass="RegionDataController" customModule="Corona_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RegionDataController" id="Pk4-iK-Cch" customClass="RegionDataController" customModule="Corona_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="g3Q-0s-6LW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="821"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -136,7 +136,7 @@
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StatsCell" rowHeight="150" id="pLw-lG-CWv" customClass="StatsCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StatsCell" rowHeight="150" id="pLw-lG-CWv" customClass="StatsCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pLw-lG-CWv" id="I3v-bV-KGt">
@@ -246,7 +246,7 @@
                                     <outlet property="labelRecoveredTitle" destination="9tZ-vG-Acf" id="MLE-lr-qkw"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrentChartCell" rowHeight="50" id="3iZ-xE-q67" customClass="CurrentChartCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CurrentChartCell" rowHeight="50" id="3iZ-xE-q67" customClass="CurrentChartCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="178" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3iZ-xE-q67" id="Sop-ag-oCY">
@@ -255,7 +255,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeltaChartCell" rowHeight="50" id="bNI-r6-c0N" customClass="DeltaChartCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeltaChartCell" rowHeight="50" id="bNI-r6-c0N" customClass="DeltaChartCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="228" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bNI-r6-c0N" id="7l3-yE-cHz">
@@ -264,7 +264,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryChartCell" rowHeight="50" id="0ul-CC-Weu" customClass="HistoryChartCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryChartCell" rowHeight="50" id="0ul-CC-Weu" customClass="HistoryChartCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="278" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0ul-CC-Weu" id="650-ek-nwC">
@@ -273,7 +273,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrendlineChartCell" rowHeight="50" id="wtj-L8-Jqo" customClass="TrendlineChartCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TrendlineChartCell" rowHeight="50" id="wtj-L8-Jqo" customClass="TrendlineChartCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="328" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wtj-L8-Jqo" id="371-pa-e6H">
@@ -282,7 +282,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopChartCell" rowHeight="50" id="M89-3e-QJ7" customClass="TopChartCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopChartCell" rowHeight="50" id="M89-3e-QJ7" customClass="TopChartCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="378" width="414" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="M89-3e-QJ7" id="jG2-zw-QBx">
@@ -291,7 +291,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UpdateTimeCell" rowHeight="40" id="ce0-b4-Yib" customClass="UpdateTimeCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UpdateTimeCell" rowHeight="40" id="ce0-b4-Yib" customClass="UpdateTimeCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="428" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ce0-b4-Yib" id="H1I-0u-7Do">
@@ -316,7 +316,7 @@
                                     <outlet property="labelUpdated" destination="Q0A-p0-mUG" id="HQh-Fh-cee"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataSourceCell" rowHeight="40" id="PyN-Ks-IkV" customClass="DataSourceCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataSourceCell" rowHeight="40" id="PyN-Ks-IkV" customClass="DataSourceCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="468" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PyN-Ks-IkV" id="sfr-T1-3kB">
@@ -420,7 +420,7 @@
                                     <outlet property="labelSource" destination="Mdl-LP-xBX" id="KwM-go-ZQc"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AuthorInfoCell" rowHeight="40" id="O3o-Ue-2xB" customClass="AuthorInfoCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AuthorInfoCell" rowHeight="40" id="O3o-Ue-2xB" customClass="AuthorInfoCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="508" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O3o-Ue-2xB" id="jZH-Mo-y6C">
@@ -430,14 +430,14 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="RCA-Mv-c5L">
                                             <rect key="frame" x="20" y="4" width="374" height="32"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Created with ♥️ by Mhd Hejazi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-VG-TyF">
-                                                    <rect key="frame" x="0.0" y="8" width="308" height="16"/>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" text="Created with ♥️ by Mhd Hejazi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggj-VG-TyF">
+                                                    <rect key="frame" x="0.0" y="8" width="0.0" height="16"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                                     <color key="textColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTp-nP-OJe">
-                                                    <rect key="frame" x="309" y="0.0" width="32" height="32"/>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTp-nP-OJe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="32" id="dhO-8F-i12"/>
                                                         <constraint firstAttribute="width" constant="32" id="x0A-x7-FBP"/>
@@ -447,8 +447,8 @@
                                                         <action selector="buttonTwitterTapped:" destination="O3o-Ue-2xB" eventType="touchUpInside" id="FqH-7t-LUc"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBg-ZE-pds">
-                                                    <rect key="frame" x="342" y="0.0" width="32" height="32"/>
+                                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBg-ZE-pds">
+                                                    <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="32" id="Cmq-pR-iUQ"/>
                                                         <constraint firstAttribute="width" constant="32" id="m0G-jd-T65"/>
@@ -487,13 +487,13 @@
         <!--Region List Controller-->
         <scene sceneID="ojh-w4-Uhk">
             <objects>
-                <tableViewController storyboardIdentifier="RegionListController" id="MCW-iL-PoX" customClass="RegionListController" customModule="Corona_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RegionListController" id="MCW-iL-PoX" customClass="RegionListController" customModule="Corona_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ycB-2B-4wS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="821"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell" rowHeight="55" id="zui-Tw-OID" customClass="RegionCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell" rowHeight="55" id="zui-Tw-OID" customClass="RegionCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zui-Tw-OID" id="3ds-To-5Vj">
@@ -526,7 +526,7 @@
                                     <outlet property="labelStats" destination="xul-Y2-u6z" id="Z8b-yr-4iC"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell2" rowHeight="74" id="Sl3-pf-BUZ" customClass="RegionCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell2" rowHeight="74" id="Sl3-pf-BUZ" customClass="RegionCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="83" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Sl3-pf-BUZ" id="30W-5N-SoL">
@@ -576,7 +576,7 @@
                                     <outlet property="labelName" destination="ZLn-gr-tSd" id="bVS-Kh-utf"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell3" rowHeight="74" id="oG4-3t-ZFm" customClass="RegionCell" customModule="Corona_Tracker" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RegionCell3" rowHeight="74" id="oG4-3t-ZFm" customClass="RegionCell" customModule="Corona_Map" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="157" width="414" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oG4-3t-ZFm" id="nkN-ia-J70">
@@ -635,7 +635,7 @@ Deaths</string>
         <!--Chart Controller-->
         <scene sceneID="isI-H7-b35">
             <objects>
-                <viewController storyboardIdentifier="ChartController" id="7XF-Gn-xgB" customClass="ChartController" customModule="Corona_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChartController" id="7XF-Gn-xgB" customClass="ChartController" customModule="Corona_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yYa-dC-hZ8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -766,7 +766,7 @@ Deaths</string>
         <!--Region Panel Controller-->
         <scene sceneID="z6c-2Z-WFk">
             <objects>
-                <viewController storyboardIdentifier="RegionPanelController" id="bGw-3g-OPq" customClass="RegionPanelController" customModule="Corona_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegionPanelController" id="bGw-3g-OPq" customClass="RegionPanelController" customModule="Corona_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="De6-gr-Z57">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

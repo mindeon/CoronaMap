@@ -172,7 +172,7 @@
 		11518698241FAECB00EBC83E /* JHURepoDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHURepoDataService.swift; sourceTree = "<group>"; };
 		1151869B241FAF6200EBC83E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		115186BE242019EE00EBC83E /* Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Change.swift; sourceTree = "<group>"; };
-		1162D128240D05F600647002 /* Corona Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1162D128240D05F600647002 /* Corona Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1162D12B240D05F600647002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1162D12D240D05F600647002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1162D12F240D05F600647002 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
@@ -342,7 +342,7 @@
 		1162D129240D05F600647002 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1162D128240D05F600647002 /* Corona Tracker.app */,
+				1162D128240D05F600647002 /* Corona Map.app */,
 				344ED31F241AC7AA004C4EA8 /* Widget.appex */,
 			);
 			name = Products;
@@ -561,7 +561,7 @@
 				115186B3241FB00000EBC83E /* CSV */,
 			);
 			productName = Corona;
-			productReference = 1162D128240D05F600647002 /* Corona Tracker.app */;
+			productReference = 1162D128240D05F600647002 /* Corona Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 		344ED31E241AC7AA004C4EA8 /* Widget */ = {
@@ -950,7 +950,7 @@
 				CODE_SIGN_ENTITLEMENTS = Corona/App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YL7P9W8PSQ;
 				INFOPLIST_FILE = Corona/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -958,7 +958,7 @@
 				);
 				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devX.coronaMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Corona Map";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -973,7 +973,7 @@
 				CODE_SIGN_ENTITLEMENTS = Corona/App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YL7P9W8PSQ;
 				INFOPLIST_FILE = Corona/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -981,7 +981,7 @@
 				);
 				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devX.coronaMap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Corona Map";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -994,7 +994,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YL7P9W8PSQ;
 				INFOPLIST_FILE = Widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1016,7 +1016,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YL7P9W8PSQ;
 				INFOPLIST_FILE = Widget/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

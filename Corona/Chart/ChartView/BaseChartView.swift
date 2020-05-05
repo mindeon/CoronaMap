@@ -11,7 +11,7 @@ import Charts
 class BaseBarChartView: ChartView<BarChartViewWithHorizontalPanning> {
 	override var interactive: Bool {
 		didSet {
-			chartView.pinchZoomEnabled = interactive
+			chartView.pinchZoomEnabled = false//interactive
 			chartView.dragEnabled = interactive
 			chartView.setScaleEnabled(interactive)
 		}
@@ -38,7 +38,7 @@ class BaseBarChartView: ChartView<BarChartViewWithHorizontalPanning> {
 class BaseLineChartView: ChartView<LineChartViewWithHorizontalPanning> {
 	override var interactive: Bool {
 		didSet {
-			chartView.pinchZoomEnabled = interactive
+			chartView.pinchZoomEnabled = false
 			chartView.dragEnabled = interactive
 			chartView.setScaleEnabled(interactive)
 		}
